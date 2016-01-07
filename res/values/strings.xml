@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Madha TV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Live TV</item>
+        <item >Video on Demand</item>
+        <item >Schedule</item>
+        <item >About Us</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/live</item>
+        <item>@drawable/play</item>
+        <item>@drawable/schedule</item>
+        <item>@drawable/about</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    
+     <!-- About Us Details Start -->
+    
+    <string name="html">
+        <![CDATA[
+        <html>
+        <body>
+        <h1><b>About Us</b></h1>
+        <p>The long awaited dream to have a Catholic Television channel is being realized through Madha TV.According to the 2013 Catholic Bishops Conference of India directory, the Catholic population in Tamilnadu is almost 3,600,000.Therefore, considering this sizable population and the peoples\' aspirations and enthusiasm, the Regional Communications Centre (Santhome Communications Centre) initiated the process of setting up the channel with the approval of the Tamilnadu Bishops\' Council (TNBC).Tamilnadu Catholic Church has been dreaming about a Catholic Channel for the past 20 years.Santhome Communications Centre of TNBC started on 4th August 1976, serves as the hub for production and transmission activities of Madha TV.We Tamils affectionately call our Blessed Virgin Mother "Madha".The name "MADHA TV" was approved by the TNBC to communicate explicitly that this is a Catholic Channel and to register our Catholic identity in the mainstream media. The main aim of Madha TV is to nourish our Catholic Faith, give spiritual formation, to promote the Catholic understanding of the Holy Bible and ultimately to register Tamil Catholics presence and create a platform for us in the mainstream media.The proliferation of media houses, specially numerous television channels, poses a challenge for the sharing of the real Good News and human values of empathy, understanding and a culture of peaceful coexistence.There is always a yearning amidst the people to have proper avenues through which they can obtain positive attitudes towards life.It is with this motive that a consolidated effort has been taken up by the Catholic Church of Tamilnadu to bring to fruition this vision for Madha TV.</p>
+		<h3><b>Advertise with Us</b></h3>
+		<p>With its dynamic web advertising properties, madhatv.in helps advertisers produce spectacular results from campaigns, creative banner advertising, promotions etc.,Our website attracts many users all over the world.</p>
+        <style type="text/css">
+        body,h1,h3,p{color: #fff;background-color: #353F4E;text-align: justify;}
+        </style>
+        </body>
+        </html>
+        ]]>
+    </string>
+    
+    <!-- About Us Details Ends -->
+
+</resources>

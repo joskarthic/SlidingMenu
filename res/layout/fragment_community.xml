@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text1"
+        android:orientation="vertical"
+        android:background="#FFFFFF" >
+        
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/linear_layout_outer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+              
+                   
+   <View
+       android:id="@+id/innerLine440"
+       android:layout_width="wrap_content"
+       android:layout_height="2dp"
+       android:layout_marginBottom="5dp"
+       android:layout_marginTop="5dp"/>
+    
+    
+    
+     <LinearLayout android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal|center_vertical" 
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imagesview1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/madha1" />
+
+        <TextView 
+            android:id="@+id/TextView002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25px"
+            android:text="Adoration-Fr-David"
+            android:layout_weight="1" 
+            android:paddingLeft="5dp"  
+            android:gravity="left"/>
+        <ImageView
+                android:id="@+id/button1"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playvideo"  />
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/innerLine42"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#029BFB" />
+    
+     <LinearLayout android:id="@+id/LinearLayout012"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal|center_vertical" 
+        android:gravity="center_vertical">
+        
+         <ImageView
+            android:id="@+id/imagesview2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/madha2" />
+         
+        <TextView 
+            android:id="@+id/TextView003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25px"
+            android:text="Irai-Irakkathin-Jebamalai1"
+            android:layout_weight="1" 
+            android:paddingLeft="5dp"  
+            android:gravity="left"/>
+        <ImageView
+                android:id="@+id/button2"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playvideo"  />
+        
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/innerLine43"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#029BFB" />
+    
+     <LinearLayout android:id="@+id/LinearLayout013"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal|center_vertical" 
+        android:gravity="center_vertical">
+        
+          <ImageView
+            android:id="@+id/imagesview3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/madha3" />
+        <TextView 
+            android:id="@+id/TextView004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25px"
+            android:text="MADHA-TV-INAUGURALCEREMONY"
+            android:layout_weight="1" 
+            android:paddingLeft="5dp"  
+            android:gravity="left"/>
+        
+         <ImageView
+                android:id="@+id/button3"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playvideo"  />
+    </LinearLayout>
+       <View
+          android:id="@+id/innerLine44"
+          android:layout_width="wrap_content"
+          android:layout_height="2dp"
+          android:background="#029BFB" />
+       
+       
+    </LinearLayout>
+</ScrollView>
+        
+        
+    </LinearLayout>
+   
+
+   
+
+</LinearLayout>
